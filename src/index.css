@@ -1,0 +1,36 @@
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+  background: #000;
+  color: white;
+  
+}
+.f{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Hide scrollbar for all browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
